@@ -5,11 +5,13 @@ yêu cầu:
 
 1. Mở CMD
 
-2. Gõ lệnh:
+2. lên ổ D tạo 1 folder tên là redis_data
+
+3. Gõ lệnh:
 
 docker run -d --name redis -v d:/redis_data/:/usr/local/etc/redis redis
 
-3. Gõ lệnh để kiểm tra redis đã được cài hay chưa
+4. Gõ lệnh để kiểm tra redis đã được cài hay chưa
 docker ps -a
 
 nếu thấy có NAMES là redis thì đã cài. nếu trạng thái(STATUS) đang là Up... => đang chạy. tạm thời tắt nó đi.
