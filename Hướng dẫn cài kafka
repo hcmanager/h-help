@@ -9,4 +9,4 @@ Yêu cầu;
 
 2. Gõ lệnh
 
-docker run -d --network main-network --network-alias kafka --name kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://zookeeper:29092 bitnami/kafka:latest
+docker run -d --network main-network --network-alias kafka --name kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=2181 -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093 -e ERTISED_LISTENERS=PLAINTEXT://zookeeper:9092 -e KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT bitnami/kafka:latest
