@@ -1,0 +1,16 @@
+Hướng dẫn cài zookeeper
+
+Yêu cầu:
+- cài docker trên hệ điều hành. nếu chưa cài thì tham khảo hướng dẫn và cài trước
+- cài network cho docker
+
+1. Mở CMD
+
+2. Gõ lệnh
+docker run -d --network main-network --network-alias zookeeper --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 -e ZOOKEEPER_CLIENT_PORT=2181 -e ALLOW_ANONYMOUS_LOGIN=yes  bitnami/zookeeper:latest
+
+3. Check zookeeper đã được cài và run chưa
+
+docker ps -a
+
+nếu docker chưa run là cài bị lỗi.
