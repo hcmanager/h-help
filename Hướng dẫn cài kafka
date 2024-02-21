@@ -1,0 +1,12 @@
+Hướng dẫn cài kafka
+
+Yêu cầu;
+- cài docker
+- cài docker network
+- cài zookeeper
+
+1. Mở CMD
+
+2. Gõ lệnh
+
+docker run -d --network main-network --network-alias kafka --name kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://zookeeper:29092 bitnami/kafka:latest
