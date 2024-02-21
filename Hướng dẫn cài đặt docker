@@ -1,2 +1,13 @@
-Tải Docker tại link:
+1. Tải Docker tại link:
 https://www.docker.com/products/docker-desktop/
+
+2. cài đặt bản cài đã tải
+
+3. Mở docker lên(trên window thường là icon trên desktop). hoặc bấm ctrl + esc và search docker
+
+4. mở CMD lên.
+
+5. gõ lệnh docker -v để kiểm tra xem đã cài hoàn tất.
+
+5. end
+
