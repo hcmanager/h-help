@@ -1,0 +1,10 @@
+Hướng dẫn tạo network trong docker. để các container nhìn thấy nhau.
+
+yêu cầu.
+- đã cài docker trên hệ điều hành. nếu chưa cài xem hướng dẫn cài docker
+
+
+1. Mở cmd ở window. Iterm ở Mac
+
+2. Gõ lệnh:
+docker network create main-network
