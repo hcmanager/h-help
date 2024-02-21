@@ -8,3 +8,10 @@ yêu cầu.
 
 2. Gõ lệnh:
 docker network create main-network
+
+
+3. Kiểm tra xem mình đã tạo thành công hay chưa gõ như sau:
+docker network ls
+
+-nếu danh sách network có name = main-network thì có nghĩa là đã tạo thành công
+
