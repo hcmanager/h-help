@@ -7,7 +7,7 @@ yêu cầu.
 1. Mở cmd ở window. Iterm ở Mac
 
 2. Gõ lệnh:
-docker network create main-network
+docker network create main-network --driver bridge
 
 
 3. Kiểm tra xem mình đã tạo thành công hay chưa gõ như sau:
