@@ -1,0 +1,14 @@
+Hướng dẫn cài zookeeper + kafka đơn giản
+
+Yêu cầu:
+- đã cài docker trên hệ điều hành
+
+1. lên ổ D tạo 1 folder docker_config
+
+2. tải file https://github.com/hcmanager/h-help/blob/main/docker-compose.yml và lưu vào trong thư mục: D:\docker_config
+
+3. mở CMD
+
+4. cd tới D:\docker_config
+
+5. Gõ lệnh: docker-compose up -d
